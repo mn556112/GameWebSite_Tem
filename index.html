@@ -150,57 +150,57 @@
     </div>
 
     <script>
-      var GameIcon = document.getElementById("GameIcon");
-      GameIcon.classList.toggle('show');
-      var Title = document.getElementById("Title");
-      Title.classList.toggle('show');
-      var Sub = document.getElementById("Sub");
-      Sub.classList.toggle('show');
-
-
-      var googlePlayStoreBadgeEN1 = document.getElementById(
+      document.addEventListener("DOMContentLoaded", function() {
+        var GameIcon = document.getElementById("GameIcon");
+        GameIcon.classList.toggle('show');
+        var Title = document.getElementById("Title");
+        Title.classList.toggle('show');
+        var Sub = document.getElementById("Sub");
+        Sub.classList.toggle('show');
+        var googlePlayStoreBadgeEN1 = document.getElementById(
         "googlePlayStoreBadgeEN1"
-      );
-      googlePlayStoreBadgeEN1.classList.toggle('show')
+        );
+        googlePlayStoreBadgeEN1.classList.toggle('show')
 
-      if (googlePlayStoreBadgeEN1) {
-        googlePlayStoreBadgeEN1.addEventListener("click", function () {
-          window.open(
-            "https://i.kym-cdn.com/entries/icons/original/000/041/742/cover3.jpg"
-          );
-        });
-      }
+        if (googlePlayStoreBadgeEN1) {
+          googlePlayStoreBadgeEN1.addEventListener("click", function () {
+            window.open(
+              "https://i.kym-cdn.com/entries/icons/original/000/041/742/cover3.jpg"
+            );
+          });
+        }
       
-      var downloadOnTheAppStoreBadg = document.getElementById(
-        "downloadOnTheAppStoreBadg"
-      );
-      downloadOnTheAppStoreBadg.classList.toggle('show')
+        var downloadOnTheAppStoreBadg = document.getElementById(
+          "downloadOnTheAppStoreBadg"
+        );
+        downloadOnTheAppStoreBadg.classList.toggle('show')
 
-      if (downloadOnTheAppStoreBadg) {
-        downloadOnTheAppStoreBadg.addEventListener("click", function () {
-          window.open(
-            "https://i.kym-cdn.com/entries/icons/original/000/041/742/cover3.jpg"
-          );
-        });
-      }
+        if (downloadOnTheAppStoreBadg) {
+          downloadOnTheAppStoreBadg.addEventListener("click", function () {
+            window.open(
+              "https://i.kym-cdn.com/entries/icons/original/000/041/742/cover3.jpg"
+            );
+          });
+        }
       
-      var d1Image = document.getElementById("d1Image");
-      if (d1Image) {
-        d1Image.addEventListener("click", function () {
-          window.open("http://www.suil.hs.kr");
-        });
-      }
+        var d1Image = document.getElementById("d1Image");
+        if (d1Image) {
+          d1Image.addEventListener("click", function () {
+            window.open("http://www.suil.hs.kr");
+          });
+        }
 
-      //메뉴
-      var MButton = document.getElementById("Menu_button");
-      var MenuFrame = document.getElementById("MenuFrame");
-      if (MButton) {
-        MButton.addEventListener("click", function () {
-          console.log("Ddd");
-          MenuFrame.classList.toggle('show');
-          MButton.classList.toggle("Pressed")
-        });
-      }
+        //메뉴
+        var MButton = document.getElementById("Menu_button");
+        var MenuFrame = document.getElementById("MenuFrame");
+        if (MButton) {
+          MButton.addEventListener("click", function () {
+            console.log("Ddd");
+            MenuFrame.classList.toggle('show');
+            MButton.classList.toggle("Pressed")
+          });
+        }
+      });
       </script>
   </body>
 </html>
