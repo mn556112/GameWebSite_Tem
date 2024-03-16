@@ -150,7 +150,7 @@
     </div>
 
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
+      setTimeout(function(){
         var GameIcon = document.getElementById("GameIcon");
         var Title = document.getElementById("Title");
         var Sub = document.getElementById("Sub");
@@ -202,7 +202,7 @@
         GameIcon.classList.toggle('show');
         Title.classList.toggle('show');
         Sub.classList.toggle('show');
-      });
+      }, 1000); //DOMContentLoaded 사용했지만 안됨 이유는 모름
       </script>
   </body>
 </html>
