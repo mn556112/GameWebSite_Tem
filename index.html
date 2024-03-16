@@ -152,15 +152,11 @@
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         var GameIcon = document.getElementById("GameIcon");
-        GameIcon.classList.toggle('show');
         var Title = document.getElementById("Title");
-        Title.classList.toggle('show');
         var Sub = document.getElementById("Sub");
-        Sub.classList.toggle('show');
         var googlePlayStoreBadgeEN1 = document.getElementById(
         "googlePlayStoreBadgeEN1"
         );
-        googlePlayStoreBadgeEN1.classList.toggle('show')
 
         if (googlePlayStoreBadgeEN1) {
           googlePlayStoreBadgeEN1.addEventListener("click", function () {
@@ -173,7 +169,6 @@
         var downloadOnTheAppStoreBadg = document.getElementById(
           "downloadOnTheAppStoreBadg"
         );
-        downloadOnTheAppStoreBadg.classList.toggle('show')
 
         if (downloadOnTheAppStoreBadg) {
           downloadOnTheAppStoreBadg.addEventListener("click", function () {
@@ -200,6 +195,13 @@
             MButton.classList.toggle("Pressed")
           });
         }
+
+        //시작 애니메이션
+        downloadOnTheAppStoreBadg.classList.toggle('show')
+        googlePlayStoreBadgeEN1.classList.toggle('show')
+        GameIcon.classList.toggle('show');
+        Title.classList.toggle('show');
+        Sub.classList.toggle('show');
       });
       </script>
   </body>
