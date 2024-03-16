@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="whatisdagame">
+        <div class="autolayer3">
+          <div class="parent">
+            <i class="i"> 이 게임은 무엇인가요?</i>
+            <i class="starveio"
+              >Starve.io 게임에 영감을 얻어 쿼더뷰 방식을 이용한 3D 서바이벌
+              멀티플레이 게임입니다. 플레이어 끼리 서로 싸우거나 협력하여
+              생존해나갈 수 있습니다.</i
+            >
+            <img class="icon" alt="" src="./public/icon.svg" />
+          </div>
+          <div class="parent">
+            <i class="i"> 이 게임은 무엇인가요?</i>
+            <i class="starveio"
+              >Starve.io 게임에 영감을 얻어 쿼더뷰 방식을 이용한 3D 서바이벌
+              멀티플레이 게임입니다. 플레이어 끼리 서로 싸우거나 협력하여
+              생존해나갈 수 있습니다.</i
+            >
+            <img class="icon" alt="" src="./public/icon.svg" />
+          </div>
+        </div>
+        <i class="game-introduction">Game Introduction</i>
+        <img
+          class="svgrepo-iconcarrier"
+          alt=""
+          src="./public/svgrepo-iconcarrier.svg"
+        />
+      </div>
+      <div class="inganescreenshot">
+        <i class="in-game-screenshot">In-Game Screenshot</i>
+        <img class="frame-icon" alt="" src="./public/frame.svg" />
+
+        <div class="autolayer2">
+          <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+
+          <img class="image-2-icon" alt="" src="./public/image-2@2x.png" />
+        </div>
+      </div>
+      <div class="devs">
+        <i class="developers">Developers</i>
+        <img
+          class="tools-and-utensils-programmer-icon"
+          alt=""
+          src="./public/toolsandutensilsprogrammersvgrepocom-1.svg"
+        />
+
+        <div class="autolayer">
+          <div class="div">
+            <div class="div1"></div>
+            <img class="icon2" alt="" src="./public/1@2x.png" />
+
+            <i class="i2">Mr.Cat</i>
+            <i class="i3">Programmer</i>
+            <i class="i4">C, Luau, Python, React etc am epic</i>
+          </div>
+          <div class="div">
+            <div class="div1"></div>
+            <img class="icon2" alt="" src="./public/2@2x.png" />
+
+            <i class="i5">Mr.Bleh</i>
+            <i class="i3">Programmer</i>
+            <i class="i4">Bleh Cat</i>
+          </div>
+          <div class="div">
+            <div class="div1"></div>
+            <img class="icon2" alt="" src="./public/3@2x.png" />
+
+            <i class="i5">Mr.Nerd</i>
+            <i class="i3">Programmer</i>
+            <i class="i4">Logically epic</i>
+          </div>
+          <div class="div">
+            <div class="div1"></div>
+            <img class="icon2" alt="" src="./public/4@2x.png" />
+
+            <i class="i5">Mr.Yos</i>
+            <i class="i3">Programmer</i>
+            <i class="i4">Ez</i>
+          </div>
+        </div>
+      </div>
+      <div class="end"></div>
+      <div class="main1">
+        <img
+          class="gamebackground-icon"
+          alt=""
+          src="./public/gamebackground@2x.png"
+        />
+
+        <img class="gameicon" alt="" src="./public/gameicon.svg" id="GameIcon" />
+
+        <i class="stoveio" id="Title" >STOVE.IO </i>
+        <i class="i14" id="Sub">다운로드 페이지</i>
+        <div class="download">
+          <img
+            class="google-play-store-badge-en-1-icon"
+            alt=""
+            src="./public/google-play-store-badge-en-1.svg"
+            id="googlePlayStoreBadgeEN1"
+          />
+
+          <img
+            class="download-on-the-app-store-badg-icon"
+            alt=""
+            src="./public/download-on-the-app-store-badge-1.svg"
+            id="downloadOnTheAppStoreBadg"
+          />
+        </div>
+      </div>
+      <div class="head">
+        <img class="d-1-icon" alt="" src="./public/d-1@2x.png" id="d1Image" />
+
+        <img 
+        class="meun-icon" alt="" 
+        src="./public/meun.svg" 
+        id="Menu_button"
+        />
+      </div>
+      <div class="menu" id="MenuFrame">
+        <div class="background"></div>
+        <div class="title1">
+          <i class="title">다른 작품</i>
+          <img class="icon6" alt="" src="./public/icon1.svg" />
+        </div>
+        <div class="title2">
+          <i class="title3">기타</i>
+          <img class="icon7" alt="" src="./public/icon2.svg" />
+        </div>
+        <div class="buttons">
+          <div class="buttons-child"></div>
+          <i class="stoveio1">STOVE.IO</i>
+          <img class="group-icon" alt="" src="./public/group.svg" />
+
+          <img class="arrow-icon" alt="" src="./public/arrow.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var GameIcon = document.getElementById("GameIcon");
+      GameIcon.classList.toggle('show');
+      var Title = document.getElementById("Title");
+      Title.classList.toggle('show');
+      var Sub = document.getElementById("Sub");
+      Sub.classList.toggle('show');
+
+
+      var googlePlayStoreBadgeEN1 = document.getElementById(
+        "googlePlayStoreBadgeEN1"
+      );
+      googlePlayStoreBadgeEN1.classList.toggle('show')
+
+      if (googlePlayStoreBadgeEN1) {
+        googlePlayStoreBadgeEN1.addEventListener("click", function () {
+          window.open(
+            "https://i.kym-cdn.com/entries/icons/original/000/041/742/cover3.jpg"
+          );
+        });
+      }
+      
+      var downloadOnTheAppStoreBadg = document.getElementById(
+        "downloadOnTheAppStoreBadg"
+      );
+      downloadOnTheAppStoreBadg.classList.toggle('show')
+      
+      if (downloadOnTheAppStoreBadg) {
+        downloadOnTheAppStoreBadg.addEventListener("click", function () {
+          window.open(
+            "https://i.kym-cdn.com/entries/icons/original/000/041/742/cover3.jpg"
+          );
+        });
+      }
+      
+      var d1Image = document.getElementById("d1Image");
+      if (d1Image) {
+        d1Image.addEventListener("click", function () {
+          window.open("http://www.suil.hs.kr");
+        });
+      }
+
+      //메뉴
+      var MButton = document.getElementById("Menu_button");
+      var MenuFrame = document.getElementById("MenuFrame");
+      if (MButton) {
+        MButton.addEventListener("click", function () {
+          console.log("Ddd");
+          MenuFrame.classList.toggle('show');
+          MButton.classList.toggle("Pressed")
+        });
+      }
+      </script>
+  </body>
+</html>
