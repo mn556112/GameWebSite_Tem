@@ -211,11 +211,30 @@
   width: 203px;
   height: 41px;
 }
-.div {
+.Dev1,
+.Dev2,
+.Dev3,
+.Dev4 {
   width: 470px;
   position: relative;
   height: 143px;
+  transition: scale 0.5s ease;
 }
+
+.Dev1:hover,
+.Dev2:hover,
+.Dev3:hover,
+.Dev4:hover {
+  scale: 1.1;
+}
+.Dev1:active,
+.Dev2:active,
+.Dev3:active,
+.Dev4:active {
+  scale: 1.2;
+}
+
+
 .autolayer,
 .i5 {
   position: absolute;
@@ -258,6 +277,9 @@
   left: 0;
   overflow: hidden;
 }
+
+
+
 .end {
   bottom: 0;
   background-color: var(--color-darkgray);
@@ -441,6 +463,9 @@
 .title {
   position: absolute;
 }
+
+
+
 .title {
   top: 4px;
   left: 44px;
